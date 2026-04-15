@@ -1,0 +1,95 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial;
+}
+
+.main {
+    width: 100%;
+    background: url(Images/PicBG.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    color: brown;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar li {
+    width: 100%;
+    margin: 16px;
+    font-weight: bolder;
+    
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s ease;
+    }
+
+.navbar a:hover {
+    color: brown;
+}
+
+.main img {
+    width: 500px;
+    
+    float: right;
+    padding: 25px;
+}
+
+.content {
+    
+    width: 600px;
+    float: left;
+    display: block;
+    margin: 100px;
+}
+
+.content h1 {
+    color: brown;
+    font-weight: bolder;
+    font-size: 75px;
+    margin-bottom: 12px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.content .btn {
+    width: 150px;
+    height: 50px;
+    margin-top: 24px;
+    border-radius: 12px;
+    font-size: 24px;
+    background-color: brown;
+    color: white;
+    font-weight: bolder;
+}
+
+
